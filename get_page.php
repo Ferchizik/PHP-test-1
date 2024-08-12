@@ -34,7 +34,7 @@ function selectPage($link, $number){
     echo "<h3>List of users: </h3>";
     while ($row = mysqli_fetch_assoc($result)) {
         $i += 1;
-        print '<br/>' . 'id: ' . $row["id"] . ' Фамилия: ' . $row["surname"]. ' Имя: ' .  $row["name"] . '<br/>';
+        print '<br/>' . 'id: ' . $row["id"] . ' Surname: ' . $row["surname"]. ' Name: ' .  $row["name"] . '<br/>';
     }
     if ($i == 0) {
         echo 'No users found';

@@ -21,7 +21,7 @@ $sql = "SELECT * FROM sibers.users WHERE id= '". $id ."'";
 $require = mysqli_query($link, $sql);
 
 while ($row = mysqli_fetch_assoc($require)) {
-    print '<br/>' . 'id: ' . $row["id"] .  ' Логин: ' . $row["login"]  . ' Пароль: '. $row["password"] . ' Фамилия: ' . $row['surname'] . ' Имя: ' .  $row["name"] . ' Пол ' . $row['gender'] . ' День рождения ' . $row['birthdate'] . ' Должность ' . $row['post'] . '<br/>';
+    print '<br/>' . 'id: ' . $row["id"] .  ' Login: ' . $row["login"]  . ' Password: '. $row["password"] . ' Surname: ' . $row['surname'] . ' Name: ' .  $row["name"] . ' Gender ' . $row['gender'] . ' Birthdate ' . $row['birthdate'] . ' Post ' . $row['post'] . '<br/>';
 }
 
 // Close the connection as soon as it becomes unnecessary

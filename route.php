@@ -61,10 +61,10 @@
 <h2>Edit user</h2>
 <form action="edit.php" method="post">
     <input type="text" name="id" placeholder="id" required><br>
-    <input type="text" name="login" placeholder="Логин" required><br>
-    <input type="password" name="password" placeholder="Пароль" required><br>
-    <input type="text" name="surname" placeholder="Фамилия" required><br>
-    <input type="text" name="name" placeholder="Имя" required><br><br>
+    <input type="text" name="login" placeholder="Login" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <input type="text" name="surname" placeholder="Surname" required><br>
+    <input type="text" name="name" placeholder="Name" required><br><br>
     <input checked type="radio" id="male" name="gender" value="1">
     <label for='male'>male</label><br>
     <input type="radio" id="gerl" name="gender" value="0" >
