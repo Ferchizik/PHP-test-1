@@ -1,0 +1,10 @@
+To run these files on the server, you need to change the line:
+
+$link = mysqli_connect("localhost", "root", "", "sibers");
+
+Where localhsot is your hostname, root is your user name, "" is your password, "sibers" is your database
+
+
+It is necessary to import the dump into your database,
+then change the connection parameters in the files and upload 
+the files to the server and call them

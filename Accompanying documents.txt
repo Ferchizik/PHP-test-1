@@ -1,0 +1,3 @@
+Initially, we are greeted by a file index.php - this is the authorization file
+After successful authorization, it transfers to the file route.php
+Where do all the calls to the php files we need come from.
